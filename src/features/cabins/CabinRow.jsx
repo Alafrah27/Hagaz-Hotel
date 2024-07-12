@@ -126,6 +126,6 @@ function CabinRow({ cabin }) {
   );
 }
 CabinRow.propTypes = {
-  cabin: PropTypes.string,
+  cabin: PropTypes.node,
 };
 export default CabinRow;

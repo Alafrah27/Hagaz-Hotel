@@ -57,7 +57,7 @@ function CabinTable() {
   const sortedCabins = filteredCabins.sort(
     (a, b) => (a[field] - b[field]) * modifier
   );
-   console.log(field, direction, modifier)
+   
   return (
     <Menus>
       <Table columns=" 0.6fr 1.8fr 2.2fr 1fr 1fr 1fr">
