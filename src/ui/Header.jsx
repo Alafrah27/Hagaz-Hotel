@@ -1,6 +1,6 @@
+import styled from "styled-components";
 import UserAvatar from "../features/authentication/UserAvatar";
 import HeaderMenu from "./headerMenu";
-import styled from "styled-components";
 
 const StyleHeader = styled.header`
   background-color: var(--color-grey-0);
@@ -12,7 +12,7 @@ const StyleHeader = styled.header`
   gap: 5rem;
 `;
 
-function Header() {
+function Headers() {
   return (
     <StyleHeader>
       <UserAvatar />
@@ -21,4 +21,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Headers;
