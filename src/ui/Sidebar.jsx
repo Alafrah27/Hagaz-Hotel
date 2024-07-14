@@ -13,7 +13,7 @@ const StyleSidebar = styled.aside`
   gap: 3.2rem;
 `;
 
-function Sidebar() {
+function Sidebar() { 
   return (
     // <aside>sidebar</aside>
     <StyleSidebar>
